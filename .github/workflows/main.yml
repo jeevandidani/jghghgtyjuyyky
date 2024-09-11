@@ -1,0 +1,28 @@
+name: Windows - LiteManager
+
+
+on:
+
+workflow_dispatch:
+
+
+jobs:
+
+build:
+
+name: Start Building...
+
+runs-on: windows-letest
+
+timeout-minutes: 9999
+
+
+
+steps:
+
+- name: Downloding & Installing Essentials
+
+run:
+
+
+steps
